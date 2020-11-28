@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_app_info_app_infos",
+  "info": {
+    "name": "App Info",
+    "icon": "band-aid"
+  },
+  "options": {
+    "privateAttributes": ["id"]
+  },
+  "attributes": {
+    "version": {
+      "type": "string"
+    },
+    "release_date": {
+      "type": "datetime"
+    }
+  }
+}

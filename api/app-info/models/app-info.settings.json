@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_infos",
+  "info": {
+    "name": "App Info"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false,
+    "privateAttributes": ["id", "published_at", "created_at", "updated_at"]
+  },
+  "attributes": {
+    "ios": {
+      "type": "component",
+      "repeatable": false,
+      "component": "app-info.app-info"
+    },
+    "android": {
+      "type": "component",
+      "repeatable": false,
+      "component": "app-info.app-info"
+    }
+  }
+}

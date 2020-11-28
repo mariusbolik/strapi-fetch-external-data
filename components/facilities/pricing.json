@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_facilities_pricings",
+  "info": {
+    "name": "pricing",
+    "icon": "hand-middle-finger",
+    "description": ""
+  },
+  "options": {
+    "privateAttributes": [
+      "id"
+    ]
+  },
+  "attributes": {
+    "pricePerHour": {
+      "type": "decimal"
+    },
+    "stringRepresentation": {
+      "type": "string"
+    },
+    "shortForm": {
+      "type": "string"
+    }
+  }
+}
